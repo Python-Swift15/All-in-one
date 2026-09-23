@@ -40,15 +40,15 @@ The supplied application includes both Intel and Apple silicon executables. Pyth
 
 The current package contains a compiled macOS application. Swift source files and source-build instructions are not included.
 
-## Usage
+## Installation
 
-Launch **All in one** from Applications.
+1. Download and extract `All in one.zip`.
+2. Drag the app into the Applications folder.
+3. Right-click the app and select Open.
+4. Confirm Open when macOS displays the security warning.
 
-Alternatively, after installing it in Applications, launch it from Terminal:
-
-```bash
-open "/Applications/All in one.app"
-```
+Because this development release is not notarized by Apple, macOS
+may require approval under System Settings → Privacy & Security.
 
 ## How to Use
 
